@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My 2-Year Tech Goals</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg">
+      <header data-testid="header" class="header">
+        <div class="container">
+          <nav data-testid="navigation" class="navigation">
+            <div class="profile" data-testid="slackProfilePicture">
+              <img src="images/profile 1008x1792.jpg" alt=""> 
+              <p>Natural size: 1008x1792</p>
+            </div>
+            <div class="slackname" data-testid="slackDisplayName">
+              <h1>slack id:</h1>
+              <p>sweetinnovator</p>
+            </div>
+          </nav>
+        </div>
+        
+      </header>
+      <main class="main-content">
+        <section id="hero" class="hero">
+          <div class="container">
+            <h2>Welcome to My Tech Journey</h2><br>
+            <p>Explore my aspirations and plans for the next two years.</p><br>
+            <a href="#goals" class="btn" data-testid="explore-btn"
+              >Explore Goals</a
+            >
+          </div>
+        </section>
+    </div>
+      <section id="goals" data-testid="goals-section" class="section">
+        <div class="container">
+          <h2>Goals</h2><br>
+          <div class="goal-cards">
+            <div class="goal-card" data-testid="goal-1">
+              <h3>JavaScript Proficiency</h3>
+              <p>Become proficient in JavaScript and frameworks like React.</p>
+            </div>
+            <div class="goal-card" data-testid="goal-2">
+              <h3>Open-Source Contributions</h3>
+              <p>Contribute to open-source projects regularly.</p>
+            </div>
+            <div class="goal-card" data-testid="goal-3">
+              <h3>Portfolio Projects</h3>
+              <p>Build a portfolio with at least five significant projects.</p>
+            </div>
+            <div class="goal-card" data-testid="goal-4">
+              <h3>Backend Technologies</h3>
+              <p>Learn backend technologies like Node.js and databases.</p>
+            </div>
+            <div class="goal-card" data-testid="goal-5">
+              <h3>Cloud Certification</h3>
+              <p>Get certified in cloud technologies.</p>
+            </div>
+          </div>
+        </div>
+        <div class="dateandtime">
+          <h1 data-testid="currentDay">Loading...</h1>
+      </div>
+      </section>
+      <section id="about" data-testid="about-section" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p data-testid="about-description">
+            I am a tech enthusiast with a passion for learning new technologies
+            and building innovative solutions. With a focus on continuous
+            improvement and growth, I aim to make significant strides in the
+            tech industry over the next two years.
+          </p>
+          <div class="email" data-testid="slackEmail" data-email="olawuyisweetness@gmail.com"></div>
+        </div>
+      </section>
+      <section id="contact" data-testid="contact-section" class="section">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <form id="contact-form" data-testid="contact-form">
+            <div class="form-group">
+              <label for="name" data-testid="label-name">Name:</label>
+              <input type="text" id="name" data-testid="input-name" required />
+            </div>
+            <div class="form-group">
+              <label for="email" data-testid="label-email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                data-testid="input-email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" data-testid="label-message">Message:</label>
+              <textarea
+                id="message"
+                data-testid="input-message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" data-testid="submit-button" class="btn">
+              Submit
+            </button><br><br><br>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer data-testid="footer" class="footer">
+      <div class="container">
+        <p data-testid="footer-text">&copy;codewithsweetness</p>
+      </div><br>
+      <div class="link">
+        <a href="hng.tech/learn"><div data-testid="hngLink">HNG Link</div></a>
+      <a href="keyword.dog"><div data-testid="keywordLink">Keyword Link</div></a>
+      <a href="scrapeanyweb.site"><div data-testid="scrapeanywebLink">ScrapeAnyWeb Link</div></a>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
